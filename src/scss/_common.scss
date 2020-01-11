@@ -1,0 +1,28 @@
+* {
+    font-family: $primary-font;
+}
+
+.homepage-section {
+    margin-bottom: 60px;
+
+    .section-heading {
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 45px;
+
+        .section-title {
+            font-weight: 700;
+            font-size: 2em;
+            color: $primary-color;
+            margin-bottom: 22px;
+        }
+
+        .section-description {
+            font-size: 0.86em;
+            font-style: italic;
+            color: $gray-color;
+            margin-bottom: 0;
+        }
+    }
+}
