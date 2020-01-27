@@ -5,16 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,400i,600,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./dist/css/main.css">
 </head>
 <body>
+    <header class="site-hader">
+        <div class="container-fluid main-header">
+            <div class="row">
+                <div class="col-5 col-md-3 logo-section">
+                    <a href="#">
+                        <img src="./src/images/Logo-Captiva.png" alt="" class="logo">
+                    </a >
+                </div>
+                <div class="col-9 menu-section p-0 d-none d-md-block">
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Product</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
     <div class="main">
+        <!-- Slider -->
+        <section class="homepage-page-slider">
+            <a href="#" class="more-btn d-none d-xl-block">More</a>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-xl-4 text-side">
+                        <h1 class="heading">Power<br>Comes With Responsibility</h1>
+
+                        <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+                        <p class="text">Ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap thing.</p>
+                    </div>
+                    <div class="col-12 col-xl-7 image-side d-none d-xl-block">
+                        <div class="box"></div>
+                        <img src="./src/images/slider-1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Speciality Section -->
         <section class="speciality-section homepage-section">
             <!-- Section Heding Part -->
-            <div class="container">
+            <div class="container-fluid container-lg">
                 <div class="row justify-content-center">
-                    <div class="col-10">
+                    <div class="col-12 col-lg-10">
                         <div class="section-heading">
                             <h2 class="section-title">Captiva Energy Solutions</h2>
                             <p class="section-description">We are a dynamic team of customer focused professionals providing end to end, sustainable energy solutions, as OEMs of Perkins, UK. We are a single window power solutions provider, from concept to commissioning,<br>focused at delighting customers.</p>
@@ -28,33 +68,33 @@
                 <div class="row justify-content-center">
                     <div class="col-10 p-0">
                         <div class="container-fluid p-0">
-                            <div class="row m-0">
-                                <div class="col-10 col-md">
-                                    <div class="speciality-card">
+                            <div class="row m-0 justify-content-center">
+                                <div class="col-10 col-md-6 col-lg mb-4 mb-lg-0">
+                                    <div class="speciality-card" tabindex="0">
                                         <p class="card-number">24/7</p>
                                         <h3 class="head">Customer Support</h3>
             
                                         <p class="text">We are just a cal away anytime, anywhere.</p>
                                     </div>
                                 </div>
-                                <div class="col-10 col-md">
-                                    <div class="speciality-card">
+                                <div class="col-10 col-md-6 col-lg mb-4 mb-lg-0">
+                                    <div class="speciality-card" tabindex="0">
                                         <p class="card-number">123</p>
                                         <h3 class="head">Happy Clients</h3>
             
                                         <p class="text">Lorem Ipsum simply dummy text of the print and test industry.</p>
                                     </div>
                                 </div>
-                                <div class="col-10 col-md">
-                                    <div class="speciality-card">
+                                <div class="col-10 col-md-6 col-lg mb-4 mb-lg-0">
+                                    <div class="speciality-card" tabindex="0">
                                         <p class="card-number">125</p>
                                         <h3 class="head">Lorem Ipsum</h3>
                 
                                         <p class="text">Contrary to popular belief, to Lorem Ipsum not simply random text.</p>
                                     </div>
                                 </div>
-                                <div class="col-10 col-md">
-                                    <div class="speciality-card">
+                                <div class="col-10 col-md-6 col-lg mb-4 mb-lg-0">
+                                    <div class="speciality-card" tabindex="0">
                                         <p class="card-number">175</p>
                                         <h3 class="head">Dummy Text</h3>
                 
@@ -68,11 +108,12 @@
             </div>
         </section>
 
+        <!-- Products Section -->
         <section class="product-section homepage-section">
             <!-- Section Heding Part -->
-            <div class="container">
+            <div class="container-fluid container-lg">
                 <div class="row justify-content-center">
-                    <div class="col-12 col-md-10">
+                    <div class="col-12 col-lg-10">
                         <div class="section-heading">
                             <h2 class="section-title">Our Products</h2>
                             <p class="section-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and <br>scrambled it to make a type specimen book.</p>
@@ -84,22 +125,22 @@
 
             <div class="container-fluid section-main">
                 <div class="row">
-                    <div class="col-12 col-md-4">
-                        <div class="product-card">
+                    <div class="col-12 col-md-4 mb-4 mb-md-0">
+                        <div class="product-card" tabindex="0">
                             <img src="./src/images/product-1.png" alt="" class="product-img">
                             <h3 class="heading">Diesel Gensets</h3>
                             <p class="text">Lorem Ipsum simply dummy text of the print and test industry.</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4">
-                        <div class="product-card">
+                    <div class="col-12 col-md-4 mb-4 mb-md-0">
+                        <div class="product-card" tabindex="0">
                             <img src="./src/images/product-2.png" alt="" class="product-img">
                             <h3 class="heading">Gas Gensets</h3>
                             <p class="text">Lorem Ipsum simply dummy text of the print and test industry.</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4">
-                        <div class="product-card">
+                    <div class="col-12 col-md-4 mb-4 mb-md-0">
+                        <div class="product-card" tabindex="0">
                             <img src="./src/images/product-3.png" alt="" class="product-img">
                             <h3 class="heading">Control Panel</h3>
                             <p class="text">Lorem Ipsum simply dummy text of the print and test industry.</p>
@@ -109,11 +150,12 @@
             </div>
         </section>
 
+        <!-- Service Section -->
         <section class="service-section homepage-section">
             <!-- Section Heding Part -->
-            <div class="container">
+            <div class="container-fluid container-lg">
                 <div class="row justify-content-center">
-                    <div class="col-12 col-md-10">
+                    <div class="col-12 col-lg-10">
                         <div class="section-heading">
                             <h2 class="section-title">Service and Support</h2>
                             <p class="section-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and <br>scrambled it to make a type specimen book.</p>
@@ -125,13 +167,13 @@
 
             <div class="container-fluid section-main">
                 <div class="row justify-content-center">
-                    <div class="col-12 col-md-6 img-side">
+                    <div class="col-12 col-lg-6 img-side">
                         <div class="img-side-container">
                             <div class="img-bkg"></div>
                             <img src="./src/images/services.jpg" alt="">
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 service-side">
+                    <div class="col-12 col-lg-4 service-side">
                         <div class="service-side-container">
                             <div class="service">
                                 <h3 class="service-title">Dealers Near You</h3>
@@ -155,6 +197,289 @@
                 </div>
             </div>
         </section>
+
+        <!-- Letest Posts Section -->
+        <section class="blogs-section homepage-section">
+            <!-- Section Heding Part -->
+            <div class="container-fluid container-lg">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-10">
+                        <div class="section-heading">
+                            <h2 class="section-title">News and Customer Tips</h2>
+                            <p class="section-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and<br>scrambled it to make a type specimen book.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /Section Heading Part -->
+            
+
+            <div class="container-fluid section-main">
+                <div class="row justify-content-center blog-container">
+                    <div class="col-12 col-sm-11 col-md-9 p-0">
+                        <div class="row m-0">
+                            <div class="col-12 col-sm-6 col-lg-4 blog">
+                                <div class="img-container">
+                                    <img src="./src/images/blog-1.png" alt="">
+                                </div>
+        
+                                <div class="text-container">
+                                    <p class="blog-meta">By Captivaenergy | Fri, Dec, 2019</p>
+                                    <a href="#" class="blog-title">Industry's Standard Dummy Text Ever Since Lorem</a>
+                                    <a href="#" class="read-more-link">Read More</a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-4 blog">
+                                <div class="img-container">
+                                    <img src="./src/images/blog-2.png" alt="">
+                                </div>
+        
+                                <div class="text-container">
+                                    <p class="blog-meta">By Captivaenergy | Fri, Dec, 2019</p>
+                                    <a href="#" class="blog-title">Industry's Standard Dummy Text Ever Since Lorem</a>
+                                    <a href="#" class="read-more-link">Read More</a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-4 blog">
+                                <div class="img-container">
+                                    <img src="./src/images/blog-3.jpg" alt="">
+                                </div>
+        
+                                <div class="text-container">
+                                    <p class="blog-meta">By Captivaenergy | Fri, Dec, 2019</p>
+                                    <a href="#" class="blog-title">Industry's Standard Dummy Text Ever Since Lorem</a>
+                                    <a href="#" class="read-more-link">Read More</a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-4 blog">
+                                <div class="img-container">
+                                    <img src="./src/images/blog-4.jpg" alt="">
+                                </div>
+        
+                                <div class="text-container">
+                                    <p class="blog-meta">By Captivaenergy | Fri, Dec, 2019</p>
+                                    <a href="#" class="blog-title">Industry's Standard Dummy Text Ever Since Lorem</a>
+                                    <a href="#" class="read-more-link">Read More</a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-4 blog">
+                                <div class="img-container">
+                                    <img src="./src/images/blog-5.jpg" alt="">
+                                </div>
+        
+                                <div class="text-container">
+                                    <p class="blog-meta">By Captivaenergy | Fri, Dec, 2019</p>
+                                    <a href="#" class="blog-title">Industry's Standard Dummy Text Ever Since Lorem</a>
+                                    <a href="#" class="read-more-link">Read More</a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-4 blog">
+                                <div class="img-container">
+                                    <img src="./src/images/blog-6.jpg" alt="">
+                                </div>
+        
+                                <div class="text-container">
+                                    <p class="blog-meta">By Captivaenergy | Fri, Dec, 2019</p>
+                                    <a href="#" class="blog-title">Industry's Standard Dummy Text Ever Since Lorem</a>
+                                    <a href="#" class="read-more-link">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <!-- Read All Button -->
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center">
+                        <a href="#" class="all-blog-btn">Load More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Us Section -->
+        <section class="homepage-contact-us-section">
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-5 col-lg-4 text-side">
+                        <p>Contrary to popular is belief, Lorem Ipsum is not simply random dummy text.</p>
+                    </div>
+                    <div class="col-12 col-md-7 col-lg-6 form-side">
+                        <div class="main-container">
+                            <h2 class="heading">Contact Us</h2>
+                            <form action="">
+                                <div class="left-side-form w-50 pr-3 mt-4 float-left">
+                                    <div class="form-group">
+                                        <label>First Name</label>
+                                        <input type="text" placeholder="Enter Here">
+                                    </div>
+    
+                                    <div class="form-group">
+                                        <label>Email</label>
+                                        <input type="text" placeholder="Enter Here">
+                                    </div>
+                                </div>
+                                <div class="right-side-form w-50 pl-3 mt-4 float-left">
+                                    <div class="form-group">
+                                        <label>Last Name</label>
+                                        <input type="text" placeholder="Last Here">
+                                    </div>
+    
+                                    <div class="form-group">
+                                        <label>Phone Number</label>
+                                        <input type="text" placeholder="Last Here">
+                                    </div>
+                                </div>
+    
+                                <div class="form-group mb-0" style="display: initial;">
+                                    <label>Message</label>
+                                    <textarea placeholder="Enter Message" rows="4"></textarea>
+    
+                                    <button type="submit" class="wpcf7-submit"><i class="fas fa-paper-plane fa-2x"></i></button>
+                                </div>
+    
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="homepage-contact-section">
+            <!-- For The Ovelay Of The Map -->
+            <div class="map-overlay"></div>
+
+            <div class="container-fluid contact-top-section mb-5">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-4 col-xl-3 contact-detail">
+                        <i class="fas fa-envelope fa-2x icon-part"></i>
+                        <div class="text-part">
+                            <p class="small-text">Email</p>
+                            <a href="#" class="main-text">lorem@example.com</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-xl-3 contact-detail">
+                        <i class="fas fa-map-marker-alt fa-2x icon-part"></i>
+                        <div class="text-part">
+                            <p class="small-text">We’re located at</p>
+                            <p class="main-text">123 lorem Ipsum Dummy, AB 123456</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-xl-3 contact-detail">
+                        <i class="fas fa-phone-alt fa-2x icon-part"></i>
+                        <div class="text-part">
+                            <p class="small-text">Phone</p>
+                            <a href="#" class="main-text">123-456-7890</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- section to show International Location on Correct Place -->
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-9">
+                        <p class="international-location">International Locations</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid address-container">
+                <!-- Row For All Addresses -->
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-3 address">
+                        <div class="text-container">
+                            <p class="address-text">123 lorem Ipsum<br>Dummy, AB 123456</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 address">
+                        <div class="text-container">
+                            <a class="address-text" href="#">123 lorem Ipsum<br>Dummy, AB 123456</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 address">
+                        <div class="text-container">
+                            <p class="address-text">123 lorem Ipsum<br>Dummy, AB 123456</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row For All Contact Options -->
+                <div class="row justify-content-center d-none d-md-flex">
+                    <div class="col-12 col-md-3 contact-option">
+                        <p class="text">Email: <a href="#">hello@captivaenergy.co</a></p>
+                        <p class="text">Phone: <a href="#">123-456-7890</a></p>
+                    </div>
+                    <div class="col-12 col-md-3 contact-option">
+                        <p class="text">Email: <a href="#">hello@captivaenergy.co</a></p>
+                        <p class="text">Phone: <a href="#">123-456-7890</a></p>
+                    </div>
+                    <div class="col-12 col-md-3 contact-option">
+                        <p class="text">Email: <a href="#">hello@captivaenergy.co</a></p>
+                        <p class="text">Phone: <a href="#">123-456-7890</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </div>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <!-- Social Media Part -->
+            <div class="footer-social-media">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Main Footer Widgets -->
+            <div class="footer-main">
+                
+            </div>
+            <!-- Footer Bottom Part & Copyright -->
+            <div class="footer-bottom">
+                <div class="container-fluid align-self-center">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-md-6 col-lg-5 footer-copyright">
+                            <p>&copy; Copyright 2020 of <a href="#">Captivaenergy</a> | Designed & Developed By <a href="#">Think To Share</a></p>
+                        </div>
+                        <div class="col-md-6 col-lg-5 d-none d-md-block footer-menu">
+                            <ul>
+                                <li>
+                                    <a href="#">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#">About</a>
+                                </li>
+                                <li>
+                                    <a href="#">Product</a>
+                                </li>
+                                <li>
+                                    <a href="#">Support</a>
+                                </li>
+                                <li>
+                                    <a href="#">Careers</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./dist/js/app.js"></script>
 </body>
 </html>

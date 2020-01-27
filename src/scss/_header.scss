@@ -1,0 +1,63 @@
+header.site-hader {
+    .main-header {
+        .logo-section {
+            a {
+                display: flex;
+                height: 100%;
+                padding: 20px 0;
+
+                @media (min-width: 768px) {
+                    padding: 0;
+                }
+
+                img {
+                    max-width: 100%;
+                    align-self: center;
+                }
+            }
+        }
+
+        .menu-section {
+            ul {
+                padding: 0;
+                list-style: none;
+                display: flex;
+                justify-content: flex-end;
+                margin-bottom: 0;
+
+                li {
+                    min-width: 8.333333333333333vw;
+                    text-align: center;
+
+                    a {
+                        font-size: 0.9em;
+                        text-transform: uppercase;
+                        color: $gray-color;
+                        text-decoration: none;
+                        font-weight: 600;
+                        padding: 30px 15px;
+                        width: 100%;
+                        display: inline-block;
+                        outline: none;
+                        transition: background-color 0.22s ease-in, color 0.11s ease-in-out;
+
+                        &:hover, &:focus {
+                            color: $secondary-color;
+                        }
+                    }
+
+                    &:last-child {
+                        a {
+                            background-color: $secondary-color;
+                            color: $white-color;
+
+                            &:hover, &:focus {
+                                background-color: $primary-color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

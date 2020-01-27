@@ -1,0 +1,160 @@
+.site-footer {
+    .footer-container {
+        display: flex;
+        flex-wrap: wrap;
+
+        .footer-social-media {
+            width: 100%;
+            background-color: $black-color;
+            padding: 15px 0;
+
+            @media (min-width: 992px) {
+                width: 4%;
+                padding: 30px 0;
+            }
+    
+            ul {
+                padding: 0;
+                list-style-type: none;
+                margin: 0;
+                display: flex;
+                justify-content: center;
+
+                @media (min-width: 992px) {
+                    display: block;
+                }
+    
+                li {
+                    margin-bottom: 10px;
+                    text-align: center;
+                    width: 100%;
+                    padding: 0 10px;
+
+                    @media (min-width: 992px) {
+                        padding: 0;
+                    }
+                    
+                    a {
+                        color: $white-color;
+                        font-size: 1.3em;
+                    }
+                }
+            }
+        }
+    
+        .footer-main {
+            width: 100%;
+            background-color: #191818;
+            padding: 20px 0;
+
+            @media (min-width: 992px) {
+                width: 96%;
+            }
+
+            .footer-logo-section {
+                background-image: url('../images/logo-faded-footer.png');
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                min-height: 195px;
+
+                .footer-logo {
+                    display: flex;
+                    justify-content: center;
+
+                    img {
+                        max-width: 80%;
+                    }
+                }
+            }
+
+            .footer-widget {
+                color: #8c8c8c;
+                font-size: 0.9em;
+                font-weight: 600;
+
+                a {
+                    color: $white-color;
+                }
+                
+                .footer-widget-title {
+                    color: $white-color;
+                    font-size: 1.2em;
+                    font-weight: 700;
+                }
+
+                p {
+                    color: #8c8c8c;
+                    font-size: 0.9em;
+                    font-weight: 600;
+
+                    a {
+                        color: $white-color;
+                    }
+                }
+
+                ul {
+                    list-style-type: none;
+                    padding: 0;
+                    margin: 0;
+
+                    li {
+                        a {
+                            color: #8c8c8c;
+                            font-size: 0.9em;
+                            font-weight: 600;
+                        }
+                    }
+                }
+            }
+        }
+    
+        .footer-bottom {
+            width: 100%;
+            background-color: $black-color;
+            display: flex;
+
+            @media (min-width: 992px) {
+                height: 4vw;
+            }
+
+            .footer-copyright {
+                p {
+                    margin-bottom: 0;
+                    color: #8c8c8c;
+                    font-size: 0.86em;
+                    font-weight: 600;
+                    text-align: center;
+
+                    @media (min-width: 768px) {
+                        text-align: left;
+                    }
+                    
+                    a {
+                        color: $white-color;
+                    }
+                }
+            }
+
+            .footer-menu {
+                ul {
+                    padding: 0;
+                    margin: 0;
+                    list-style-type: none;
+                    display: flex;
+                    justify-content: flex-end;
+
+                    li {
+                        padding: 0 10px;
+
+                        a {
+                            color: #8c8c8c;
+                            font-size: 0.86em;
+                            font-weight: 600;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

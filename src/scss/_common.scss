@@ -7,9 +7,13 @@
 
     .section-heading {
         text-align: center;
-        width: 80%;
+        width: 100%;
         margin: 0 auto;
         margin-bottom: 45px;
+
+        @media (min-width: 992px) {
+            width: 80%;
+        }
 
         .section-title {
             font-weight: 700;
