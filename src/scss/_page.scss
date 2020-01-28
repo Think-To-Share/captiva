@@ -1,0 +1,78 @@
+.service-page-slider {
+    margin-bottom: 50px;
+    background-image: url('../images/logo-faded.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left top;
+    position: relative;
+
+    @media (min-width: 992px) {
+        margin-bottom: 150px;
+    }
+
+    .more-btn {
+        display: inline-block;
+        position: absolute;
+        bottom: -100px;
+        left: 0;
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
+        text-transform: uppercase;
+        height: 150px;
+        text-decoration: none;
+        padding: 15px 12px;
+        background: $primary-color;
+        color: $white-color;
+        font-size: 1em;
+    }
+    
+    .text-side {
+        margin-left: 0;
+        padding-top: 80px;
+
+        @media (min-width: 992px) {
+            margin-left: 8.3333333333%;
+        }
+
+        .heading {
+            font-weight: 600;
+            font-size: 2.2em;
+            color: $primary-color;
+            margin-bottom: 30px;
+
+            @media (min-width: 576px) {
+                font-size: 3em;
+            }
+
+            @media (min-width: 768px) {
+                font-size: 3.2em;
+            }
+        }
+
+        .text {
+            font-size: 1em;
+            color: $gray-color;
+        }
+    }
+
+    .image-side {
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 35px;
+        padding-right: 8.333333333333333vw;
+
+        img {
+            width: 100%;
+        }
+
+        .box {
+            width: 60%;
+            height: 200px;
+            position: absolute;
+            right: 0;
+            bottom: -100px;
+            background: $primary-color;
+            z-index: -1;
+        }
+    }
+}
