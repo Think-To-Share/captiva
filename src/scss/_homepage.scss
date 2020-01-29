@@ -12,8 +12,8 @@
 
     .more-btn {
         display: inline-block;
-        position: absolute;
-        bottom: -100px;
+        position: fixed;
+        bottom: 0;
         left: 0;
         writing-mode: vertical-rl;
         text-orientation: mixed;
@@ -24,6 +24,13 @@
         background: $primary-color;
         color: $white-color;
         font-size: 1em;
+
+        .arrow-icon {
+            position: absolute;
+            left: 50%;
+            bottom: 15px;
+            transform: translateX(-50%);
+        }
     }
     
     .text-side {

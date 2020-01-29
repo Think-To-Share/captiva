@@ -18,18 +18,19 @@ header.site-hader {
         }
 
         .menu-section {
-            ul {
+            > ul {
                 padding: 0;
                 list-style: none;
                 display: flex;
                 justify-content: flex-end;
                 margin-bottom: 0;
 
-                li {
+                > li {
                     min-width: 8.333333333333333vw;
                     text-align: center;
+                    position: relative;
 
-                    a {
+                    > a {
                         font-size: 0.9em;
                         text-transform: uppercase;
                         color: $gray-color;
@@ -43,6 +44,68 @@ header.site-hader {
 
                         &:hover, &:focus {
                             color: $secondary-color;
+                        }
+                    }
+
+                    &:hover {
+                        > ul {
+                            display: block;
+                        }
+                    }
+
+                    > ul {
+                        display: none;
+                        position: absolute;
+                        list-style-type: none;
+                        padding: 0;
+                        margin: 0;
+                        min-width: 100%;
+                        background-color: $white-color;
+                        left: 0;
+                        top: 100%;
+                        z-index: 200;
+
+                        li {
+                            text-align: center;
+                            border: 1px solid #efefef;
+
+                            > a {
+                                font-size: 0.8em;
+                                color: $gray-color;
+                                width: 100%;
+                                padding: 15px 10px;
+                                display: block;
+                                clear: both;
+                                white-space: nowrap;
+                                text-transform: uppercase;
+                                font-weight: 600;
+                                text-decoration: none;
+                                transition: all 0.11s ease-in-out;
+
+                                &:hover {
+                                    background-color: $secondary-color;
+                                    color: $white-color;
+                                }
+                            }
+
+                            &:hover {
+                                > ul {
+                                    display: block;
+                                }
+                            }
+
+                            ul {
+                                display: none;
+                                position: absolute;
+                                list-style-type: none;
+                                padding: 0;
+                                margin: 0;
+                                min-width: 100%;
+                                background-color: $white-color;
+                                left: 100%;
+                                top: 0;
+                                z-index: 200;
+                            }
                         }
                     }
 

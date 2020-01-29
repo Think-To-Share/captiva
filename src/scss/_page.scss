@@ -24,6 +24,13 @@
         background: $primary-color;
         color: $white-color;
         font-size: 1em;
+
+        .arrow-icon {
+            position: absolute;
+            left: 50%;
+            bottom: 15px;
+            transform: translateX(-50%);
+        }
     }
     
     .text-side {
@@ -73,6 +80,19 @@
             bottom: -100px;
             background: $primary-color;
             z-index: -1;
+        }
+    }
+}
+
+.service-page-main {
+    p {
+        a {
+            color: $secondary-color;
+            font-style: italic;
+
+            &:hover {
+                text-decoration: underline;
+            }
         }
     }
 }

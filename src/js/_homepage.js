@@ -25,7 +25,7 @@ $(window).on("load", function() {
 })
 
 function maintainSliderImage() {
-    let contactBtnWidth = $("header.site-hader .main-header .menu-section ul li:last-child").width();
+    let contactBtnWidth = $("header.site-hader .main-header .menu-section > ul > li:last-child").width();
     $(".homepage-page-slider .image-side").css("padding-right", contactBtnWidth);
     $(".service-page-slider .image-side").css("padding-right", contactBtnWidth);
 }
